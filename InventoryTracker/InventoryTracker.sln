@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryTracker", "InventoryTracker\InventoryTracker.csproj", "{2383C9FF-0FF6-4B49-A62C-30FC61C631C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryTracker.DAL", "InventoryTracker.DAL\InventoryTracker.DAL.csproj", "{FC195648-CB37-4670-859B-D2DE70CEF098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryTracker.Model", "InventoryTracker.Model\InventoryTracker.Model.csproj", "{0CE3D52F-0FF8-4D3F-8D54-2569BC3BFD19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2383C9FF-0FF6-4B49-A62C-30FC61C631C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2383C9FF-0FF6-4B49-A62C-30FC61C631C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2383C9FF-0FF6-4B49-A62C-30FC61C631C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC195648-CB37-4670-859B-D2DE70CEF098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC195648-CB37-4670-859B-D2DE70CEF098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC195648-CB37-4670-859B-D2DE70CEF098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC195648-CB37-4670-859B-D2DE70CEF098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE3D52F-0FF8-4D3F-8D54-2569BC3BFD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE3D52F-0FF8-4D3F-8D54-2569BC3BFD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE3D52F-0FF8-4D3F-8D54-2569BC3BFD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE3D52F-0FF8-4D3F-8D54-2569BC3BFD19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
