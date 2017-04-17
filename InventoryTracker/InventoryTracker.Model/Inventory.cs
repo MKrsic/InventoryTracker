@@ -22,8 +22,5 @@ namespace InventoryTracker.Model
         [RegularExpression("^[0-9]*$", ErrorMessage = "Količina može sadržavati samo znamenke od 0 do 9.")]
         [Display(Name = "Ukupna količina")]
         public int TotalAmount { get; set; }
-
-        public virtual ICollection<InventoryLocation> ItemLocation { get; set; }
-
     }
 }
