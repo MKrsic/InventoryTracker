@@ -18,8 +18,6 @@ namespace InventoryTracker.Model
         [ForeignKey("Inventory")]
         public int InventoryID { get; set; }
 
-        //public virtual Inventory Inventory { get; set; }
-        public virtual ICollection<Inventory> Inventory { get; set; }
-
+        public virtual Inventory Inventory { get; set; }
     }
 }
