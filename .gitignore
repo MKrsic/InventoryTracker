@@ -5,3 +5,6 @@
 /InventoryTracker/InventoryTracker/obj/Debug
 /InventoryTracker/packages
 /InventoryTracker/InventoryTracker/bin
+/InventoryTracker/InventoryTracker.DAL/obj/Debug
+/InventoryTracker/InventoryTracker.Model/obj/Debug
+/InventoryTracker/InventoryTracker.DAL/bin/Debug
