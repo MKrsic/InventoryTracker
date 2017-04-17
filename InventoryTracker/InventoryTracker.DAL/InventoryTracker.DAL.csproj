@@ -48,6 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InventoryTrackerDbContext.cs" />
+    <Compile Include="Migrations\201704171354544_initial.cs" />
+    <Compile Include="Migrations\201704171354544_initial.Designer.cs">
+      <DependentUpon>201704171354544_initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201704171354544_initial.resx">
+      <DependentUpon>201704171354544_initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
