@@ -144,6 +144,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InventoriesController.cs" />
+    <Compile Include="Controllers\InventoryLocationsController.cs" />
+    <Compile Include="Controllers\LocationsController.cs" />
+    <Compile Include="Controllers\LocationTypesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,6 +204,26 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Inventories\Create.cshtml" />
+    <Content Include="Views\Inventories\Delete.cshtml" />
+    <Content Include="Views\Inventories\Details.cshtml" />
+    <Content Include="Views\Inventories\Edit.cshtml" />
+    <Content Include="Views\Inventories\Index.cshtml" />
+    <Content Include="Views\LocationTypes\Create.cshtml" />
+    <Content Include="Views\LocationTypes\Delete.cshtml" />
+    <Content Include="Views\LocationTypes\Details.cshtml" />
+    <Content Include="Views\LocationTypes\Edit.cshtml" />
+    <Content Include="Views\LocationTypes\Index.cshtml" />
+    <Content Include="Views\Locations\Create.cshtml" />
+    <Content Include="Views\Locations\Delete.cshtml" />
+    <Content Include="Views\Locations\Details.cshtml" />
+    <Content Include="Views\Locations\Edit.cshtml" />
+    <Content Include="Views\Locations\Index.cshtml" />
+    <Content Include="Views\InventoryLocations\Create.cshtml" />
+    <Content Include="Views\InventoryLocations\Delete.cshtml" />
+    <Content Include="Views\InventoryLocations\Details.cshtml" />
+    <Content Include="Views\InventoryLocations\Edit.cshtml" />
+    <Content Include="Views\InventoryLocations\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

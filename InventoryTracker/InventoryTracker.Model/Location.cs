@@ -20,5 +20,6 @@ namespace InventoryTracker.Model
         public int LocationTypeID { get; set; }
 
         public virtual LocationType LocationType { get; set; }
+        public virtual ICollection<InventoryLocation> InventoryLocations { get; set; }
     }
 }
