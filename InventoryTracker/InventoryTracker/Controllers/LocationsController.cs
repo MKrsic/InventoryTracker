@@ -88,6 +88,7 @@ namespace InventoryTracker.Controllers
             bool isOk = TryUpdateModel(location);
             if (ModelState.IsValid && isOk)
             {
+                location.UpdatedAt = DateTime.Now;
                 LocationRepository.Update(location);
                 return RedirectToAction("Index");
             }

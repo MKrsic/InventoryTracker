@@ -57,6 +57,11 @@ namespace InventoryTracker.Controllers
             if (ModelState.IsValid)
             {
                 InventoryLocationRepository.Add(inventoryLocation);
+
+                //var inventoryOutput = InventoryRepository.Find(inventoryLocation.InventoryID);
+                //inventoryOutput.TotalAmount = inventoryOutput.TotalAmount - inventoryLocation.Quantity;
+                //InventoryRepository.Update(inventoryOutput);
+
                 return RedirectToAction("Index");
             }
 

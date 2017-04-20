@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<InventoryTracker.Model.Location>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Popis lokacija";
 }
 
-<h2>Index</h2>
+<h2>@ViewBag.Title</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Dodaj novu", "Create")
 </p>
 <table class="table">
     <tr>
